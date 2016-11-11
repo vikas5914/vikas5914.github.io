@@ -23,7 +23,7 @@ class MarkdownWrapper extends React.Component {
   render () {
     const { route } = this.props
     const post = route.page.data
-    const docTitle = `${post.title} - ${config.blogTitle}`
+    const docTitle = `${post.title} - ${config.blogTitle} by ${config.authorName}`
     const imageurl = post.coverimage ? `${config.blogUrl}${prefixLink(route.page.path)}${post.coverimage}` : `${config.blogUrl}/${config.authorPic}`
     const docDesc =  post.description ? post.description : config.subTitle
     return (
