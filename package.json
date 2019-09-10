@@ -30,7 +30,7 @@
     "react-share": "^1.10.2",
     "safe-access": "^0.1.0",
     "slugify": "^0.1.1",
-    "underscore.string": "^3.2.3"
+    "underscore.string": "^3.3.5"
   },
   "devDependencies": {
     "babel-core": "^6.10.4",
